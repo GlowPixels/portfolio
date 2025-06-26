@@ -25,7 +25,7 @@ function App() {
     <header class="header">
         <div class="header__wrapper">
             <h1 class="header__title">
-                <strong>Hi, my name is <em>Yuri</em></strong><br />
+                <strong>Hi, my name is <em>Big boobs</em></strong><br />
                 a frontend developer
             </h1>
             <div class="header__text">
