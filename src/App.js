@@ -1,10 +1,5 @@
 import "./styles/main.css";
 
-import vk from "./styles/img/icons/vk.svg";
-import instagram from "./styles/img/icons/instagram.svg";
-import twitter from "./styles/img/icons/twitter.svg";
-import linkedIn from "./styles/img/icons/linkedIn.svg";
-import gitHub from "./styles/img/icons/gitHub.svg";
 
 import Navbar from "./Components/navbar/Navbar";
 import Header from "./Components/header/Header";
@@ -41,8 +36,8 @@ function App() {
         </div>
     </main>
 
-    <Footer />
-    
+      <Footer />
+
     </div>
   );
 }
