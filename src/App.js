@@ -3,6 +3,12 @@ import "./styles/main.css";
 import sun from "./styles/img/icons/sun.svg";
 import moon from "./styles/img/icons/moon.svg";
 
+import vk from "./styles/img/icons/vk.svg";
+import instagram from "./styles/img/icons/instagram.svg";
+import twitter from "./styles/img/icons/twitter.svg";
+import linkedIn from "./styles/img/icons/linkedIn.svg";
+import gitHub from "./styles/img/icons/gitHub.svg";
+
 function App() {
   return (
     <div className="App">
@@ -64,11 +70,11 @@ function App() {
         <div className="container">
             <div className="footer__wrapper">
                 <ul className="social">
-                    <li className="social__item"><a href="#!"><img src="./img/icons/vk.svg" alt="Link" /></a></li>
-                    <li className="social__item"><a href="#!"><img src="./img/icons/instagram.svg" alt="Link" /></a></li>
-                    <li className="social__item"><a href="#!"><img src="./img/icons/twitter.svg" alt="Link" /></a></li>
-                    <li className="social__item"><a href="#!"><img src="./img/icons/gitHub.svg" alt="Link" /></a></li>
-                    <li className="social__item"><a href="#!"><img src="./img/icons/linkedIn.svg" alt="Link" /></a></li>
+                    <li className="social__item"><a href="#!"><img src={vk} alt="Link" /></a></li>
+                    <li className="social__item"><a href="#!"><img src={instagram} alt="Link" /></a></li>
+                    <li className="social__item"><a href="#!"><img src={twitter} alt="Link" /></a></li>
+                    <li className="social__item"><a href="#!"><img src={gitHub} alt="Link" /></a></li>
+                    <li className="social__item"><a href="#!"><img src={linkedIn} alt="Link" /></a></li>
                 </ul>
                 <div className="copyright">
                     <p>© 2022 frontend-dev.com</p>
