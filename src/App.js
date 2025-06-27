@@ -1,7 +1,7 @@
 import "./styles/main.css";
 
-import sun from "./img/icons/sun.svg";
-import moon from "./img/icons/moon.svg";
+import sun from "./styles/img/icons/sun.svg";
+import moon from "./styles/img/icons/moon.svg";
 
 function App() {
   return (
