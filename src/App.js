@@ -1,4 +1,7 @@
-import "./styles/main.css"
+import "./styles/main.css";
+
+import sun from "./img/icons/sun.svg";
+import moon from "./img/icons/moon.svg";
 
 function App() {
   return (
@@ -9,8 +12,8 @@ function App() {
                 <a href="./index.html" className="logo"><strong>Freelancer</strong> portfolio</a>
 
                 <button className="dark-mode-btn">
-                    <img src="./img/icons/sun.svg" alt="Light mode" className="dark-mode-btn__icon" />
-                    <img src="./img/icons/moon.svg" alt="Dark mode" className="dark-mode-btn__icon" />
+                    <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
+                    <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
                 </button>
 
                 <ul className="nav-list">
@@ -25,7 +28,7 @@ function App() {
     <header class="header">
         <div class="header__wrapper">
             <h1 class="header__title">
-                <strong>Hi, my name is <em>Big boobs</em></strong><br />
+                <strong>Hi, my name is <em>Anastasia</em></strong><br />
                 a frontend developer
             </h1>
             <div class="header__text">
