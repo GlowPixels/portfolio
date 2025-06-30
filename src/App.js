@@ -4,13 +4,15 @@ import "./styles/main.css";
 import Navbar from "./Components/navbar/Navbar";
 import Footer from "./Components/footer/Footer";
 import Home from "./pages/Hom";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
     <div className="App">
         
       <Navbar />
-      <Home />
+      {/* <Home /> */}
+      <Projects />
 
      
 
