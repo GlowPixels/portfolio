@@ -1,10 +1,12 @@
 import "./style.css"
+import headerimg from "./../../styles/img/header-bg.png"
 
 const Header = () => {
     return (  
         <header class="header">
             <div class="header__wrapper">
                 <h1 class="header__title">
+                    <img src={headerimg} alt="Light mode" className="dark-mode-btn__icon" />
                     <strong>Hi, my name is <em>Anastasia</em></strong><br />
                     a frontend developer
                 </h1>
