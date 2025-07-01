@@ -6,6 +6,7 @@ import Footer from "./Components/footer/Footer";
 import Home from "./pages/Hom";
 import Projects from "./pages/Projects";
 import Contacts from "./pages/Contacts";
+import Project from "./pages/Project";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         
       <Navbar />
       {/* <Home /> */}
-      <Projects />
+      {/* <Projects /> */}
+      <Project />
       {/* <Contacts />  */}
      
 
