@@ -1,9 +1,9 @@
 import "./style.css"
 import gitHub from "./gitHub-black.svg"
 
-const BtnGitHub = () => {
+const BtnGitHub = ({link}) => {
     return ( 
-        <a href="#!" className="btn-outline">
+        <a href={link} target="_blank" className="btn-outline">
             <img src={gitHub} alt="" />
             GitHub repo
         </a>
