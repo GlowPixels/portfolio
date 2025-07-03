@@ -4,8 +4,6 @@ import { projects } from "../helpers/projectList";
 
 
 
-
-
 const Project = () => {
     const {id} = useParams();
     const project = projects[id];
