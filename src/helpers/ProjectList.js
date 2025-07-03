@@ -58,7 +58,7 @@ const projects = [
         skills: 'React, Node.js, MongoDB',
         img: project06,
         imgBig: project06Big,
-        gitHubLink: 'https://github.com',
+        
     }
 ]
 
